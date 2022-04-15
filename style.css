@@ -24,11 +24,14 @@ body{
 .facebook .fa-facebook{
     background-color: #343f4f;
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 95px;
 }
 .facebook .loading{
-    margin-top: 50px;
+    margin-top: 55px;
     background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .facebook .loading span{
     display: inline-block;
@@ -36,22 +39,23 @@ body{
     height: 10px;
     background-color: #fff;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 6px;
+    
 }
 .facebook .loading span:nth-child(1){
-    animation: loading1 1s linear infinite;
+    animation: loading1 0.7s linear infinite;
 }
 .facebook .loading span:nth-child(2){
-    animation: loading2 1s linear infinite;
+    animation: loading2 0.7s linear infinite;
 }
 .facebook .loading span:nth-child(3){
-    animation: loading3 1s linear infinite;
+    animation: loading3 0.7s linear infinite;
 }
 .facebook .loading span:nth-child(4){
-    animation: loading4 1s linear infinite;
+    animation: loading4 0.7s linear infinite;
 }
 .facebook .loading span:nth-child(5){
-    animation: loading5 1s linear infinite;
+    animation: loading5 0.7s linear infinite;
 }
 
 @keyframes loading1 {
