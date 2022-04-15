@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Plus+Jakarta+Sans&family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b1c1d;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.facebook{
+    height: 650px;
+    width: 400px;
+    background-color: #343f4f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.facebook .fa-facebook{
+    background-color: #343f4f;
+    color: whitesmoke;
+    font-size: 100px;
+}
+.facebook .loading{
+    margin-top: 50px;
+    background: transparent;
+}
+.facebook .loading span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.facebook .loading span:nth-child(1){
+    animation: loading1 1s linear infinite;
+}
+.facebook .loading span:nth-child(2){
+    animation: loading2 1s linear infinite;
+}
+.facebook .loading span:nth-child(3){
+    animation: loading3 1s linear infinite;
+}
+.facebook .loading span:nth-child(4){
+    animation: loading4 1s linear infinite;
+}
+.facebook .loading span:nth-child(5){
+    animation: loading5 1s linear infinite;
+}
+
+@keyframes loading1 {
+    0%{ background-color: #fff; }
+    20%{ background-color: rgb(6, 85, 255);}
+    40%{ background-color: #fff; }
+    60%{ background-color: #fff; }
+    80%{ background-color: #fff; }
+    100%{ background-color: #fff; }
+}
+@keyframes loading2 {
+    0%{ background-color: #fff; }
+    20%{ background-color: #fff;}
+    40%{ background-color: rgb(6, 85, 255); }
+    60%{ background-color: #fff; }
+    80%{ background-color: #fff; }
+    100%{ background-color: #fff; }
+}
+@keyframes loading3 {
+    0%{ background-color: #fff; }
+    20%{ background-color: #fff;}
+    40%{ background-color: #fff; }
+    60%{ background-color: rgb(6, 85, 255) }
+    80%{ background-color: #fff; }
+    100%{ background-color: #fff; }
+}
+@keyframes loading4 {
+    0%{ background-color: #fff; }
+    20%{ background-color: #fff;}
+    40%{ background-color: #fff; }
+    60%{ background-color: #fff; }
+    80%{ background-color: rgb(6, 85, 255) }
+    100%{ background-color: #fff; }
+}
+@keyframes loading5 {
+    0%{ background-color: #fff; }
+    20%{ background-color: #fff;}
+    40%{ background-color: #fff; }
+    60%{ background-color: #fff; }
+    80%{ background-color: #fff; }
+    100%{ background-color: rgb(6, 85, 255); }
+}
+
+.facebook-name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent !important;
+    position: relative;
+    top: 150px;
+    
+}
+.facebook-name p{
+    background-color: transparent !important;
+    font-size: 20px;
+    color: rgba(216, 212, 212, 0.9);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook-name .brands-logo{
+    background-color: transparent !important;
+    margin-right: 8px;
+}
+.facebook-name .brands-logo i{
+    font-size: 20px !important;
+    background-color: transparent !important;
+    margin-top: 20px;
+    margin: 4px;
+    color: rgba(216, 212, 212, 0.9);
+}
